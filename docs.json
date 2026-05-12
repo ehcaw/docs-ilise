@@ -42,7 +42,6 @@
     "groups": [
       {
         "group": "Platform",
-        "public": true,
         "icon": "layers",
         "expanded": true,
         "pages": [
@@ -55,7 +54,6 @@
       },
       {
         "group": "Analytics",
-        "public": true,
         "icon": "chart-bar",
         "expanded": true,
         "pages": [
