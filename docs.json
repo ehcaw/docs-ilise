@@ -16,7 +16,13 @@
     "eyebrows": "breadcrumbs"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+    "options": [
+      "copy",
+      "view",
+      "assistant",
+      "mcp",
+      "add-mcp"
+    ]
   },
   "navigation": {
     "global": {
@@ -49,7 +55,63 @@
           "platform/key-concepts",
           "platform/configuration/settings",
           "platform/configuration/user-management",
-          "platform/administration/roles-permissions"
+          "platform/administration/roles-permissions",
+          {
+            "group": "Configuration",
+            "pages": [
+              "platform/configuration/examples-1",
+              "platform/configuration/reference-2",
+              "platform/configuration/limits-and-quotas-3",
+              "platform/configuration/data-retention-4",
+              "platform/configuration/notifications-5",
+              "platform/configuration/custom-fields-6",
+              "platform/configuration/bulk-operations-7",
+              "platform/configuration/version-history-8",
+              "platform/configuration/rollback-strategies-9",
+              "platform/configuration/disaster-recovery-10"
+            ]
+          },
+          {
+            "group": "Administration",
+            "pages": [
+              "platform/administration/reference-1",
+              "platform/administration/limits-and-quotas-2",
+              "platform/administration/data-retention-3",
+              "platform/administration/notifications-4",
+              "platform/administration/custom-fields-5",
+              "platform/administration/bulk-operations-6",
+              "platform/administration/version-history-7",
+              "platform/administration/rollback-strategies-8",
+              "platform/administration/disaster-recovery-9",
+              "platform/administration/cost-optimization-10"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "platform/architecture/templates-1",
+              "platform/architecture/examples-2",
+              "platform/architecture/reference-3",
+              "platform/architecture/limits-and-quotas-4",
+              "platform/architecture/data-retention-5",
+              "platform/architecture/notifications-6",
+              "platform/architecture/custom-fields-7",
+              "platform/architecture/bulk-operations-8"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "platform/security/monitoring-1",
+              "platform/security/troubleshooting-2",
+              "platform/security/scaling-up-3",
+              "platform/security/automation-4",
+              "platform/security/templates-5",
+              "platform/security/examples-6",
+              "platform/security/reference-7",
+              "platform/security/limits-and-quotas-8"
+            ]
+          }
         ]
       },
       {
@@ -60,7 +122,63 @@
           "analytics/quickstart",
           "analytics/connect-data",
           "analytics/dashboards/create-dashboard",
-          "analytics/reports/scheduled-reports"
+          "analytics/reports/scheduled-reports",
+          {
+            "group": "Dashboards",
+            "pages": [
+              "analytics/dashboards/scaling-up-1",
+              "analytics/dashboards/automation-2",
+              "analytics/dashboards/templates-3",
+              "analytics/dashboards/examples-4",
+              "analytics/dashboards/reference-5",
+              "analytics/dashboards/limits-and-quotas-6",
+              "analytics/dashboards/data-retention-7",
+              "analytics/dashboards/notifications-8",
+              "analytics/dashboards/custom-fields-9",
+              "analytics/dashboards/bulk-operations-10"
+            ]
+          },
+          {
+            "group": "Reports",
+            "pages": [
+              "analytics/reports/performance-tuning-1",
+              "analytics/reports/monitoring-2",
+              "analytics/reports/troubleshooting-3",
+              "analytics/reports/scaling-up-4",
+              "analytics/reports/automation-5",
+              "analytics/reports/templates-6",
+              "analytics/reports/examples-7",
+              "analytics/reports/reference-8",
+              "analytics/reports/limits-and-quotas-9",
+              "analytics/reports/data-retention-10"
+            ]
+          },
+          {
+            "group": "Metrics",
+            "pages": [
+              "analytics/metrics/performance-tuning-1",
+              "analytics/metrics/monitoring-2",
+              "analytics/metrics/troubleshooting-3",
+              "analytics/metrics/scaling-up-4",
+              "analytics/metrics/automation-5",
+              "analytics/metrics/templates-6",
+              "analytics/metrics/examples-7",
+              "analytics/metrics/reference-8"
+            ]
+          },
+          {
+            "group": "Data Modeling",
+            "pages": [
+              "analytics/data-modeling/examples-1",
+              "analytics/data-modeling/reference-2",
+              "analytics/data-modeling/limits-and-quotas-3",
+              "analytics/data-modeling/data-retention-4",
+              "analytics/data-modeling/notifications-5",
+              "analytics/data-modeling/custom-fields-6",
+              "analytics/data-modeling/bulk-operations-7",
+              "analytics/data-modeling/version-history-8"
+            ]
+          }
         ]
       },
       {
@@ -72,8 +190,300 @@
           "integrations/quickstart",
           "integrations/authentication",
           "integrations/connectors/crm",
-          "integrations/webhooks/configure"
+          "integrations/webhooks/configure",
+          {
+            "group": "Connectors",
+            "pages": [
+              "integrations/connectors/scaling-up-1",
+              "integrations/connectors/automation-2",
+              "integrations/connectors/templates-3",
+              "integrations/connectors/examples-4",
+              "integrations/connectors/reference-5",
+              "integrations/connectors/limits-and-quotas-6",
+              "integrations/connectors/data-retention-7",
+              "integrations/connectors/notifications-8",
+              "integrations/connectors/custom-fields-9",
+              "integrations/connectors/bulk-operations-10",
+              "integrations/connectors/version-history-11",
+              "integrations/connectors/rollback-strategies-12"
+            ]
+          },
+          {
+            "group": "Webhooks",
+            "pages": [
+              "integrations/webhooks/monitoring-1",
+              "integrations/webhooks/troubleshooting-2",
+              "integrations/webhooks/scaling-up-3",
+              "integrations/webhooks/automation-4",
+              "integrations/webhooks/templates-5",
+              "integrations/webhooks/examples-6",
+              "integrations/webhooks/reference-7",
+              "integrations/webhooks/limits-and-quotas-8"
+            ]
+          },
+          {
+            "group": "Authentication",
+            "pages": [
+              "integrations/authentication/reference-1",
+              "integrations/authentication/limits-and-quotas-2",
+              "integrations/authentication/data-retention-3",
+              "integrations/authentication/notifications-4",
+              "integrations/authentication/custom-fields-5",
+              "integrations/authentication/bulk-operations-6"
+            ]
+          },
+          {
+            "group": "Marketplace",
+            "pages": [
+              "integrations/marketplace/automation-1",
+              "integrations/marketplace/templates-2",
+              "integrations/marketplace/examples-3",
+              "integrations/marketplace/reference-4",
+              "integrations/marketplace/limits-and-quotas-5",
+              "integrations/marketplace/data-retention-6"
+            ]
+          }
         ]
+      },
+      {
+        "group": "API Reference",
+        "icon": "code",
+        "pages": [
+          "api-reference/overview",
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/endpoints/troubleshooting-1",
+              "api-reference/endpoints/scaling-up-2",
+              "api-reference/endpoints/automation-3",
+              "api-reference/endpoints/templates-4",
+              "api-reference/endpoints/examples-5",
+              "api-reference/endpoints/reference-6",
+              "api-reference/endpoints/limits-and-quotas-7",
+              "api-reference/endpoints/data-retention-8",
+              "api-reference/endpoints/notifications-9",
+              "api-reference/endpoints/custom-fields-10",
+              "api-reference/endpoints/bulk-operations-11",
+              "api-reference/endpoints/version-history-12",
+              "api-reference/endpoints/rollback-strategies-13",
+              "api-reference/endpoints/disaster-recovery-14"
+            ]
+          },
+          {
+            "group": "Authentication",
+            "pages": [
+              "api-reference/authentication/reference-1",
+              "api-reference/authentication/limits-and-quotas-2",
+              "api-reference/authentication/data-retention-3",
+              "api-reference/authentication/notifications-4",
+              "api-reference/authentication/custom-fields-5",
+              "api-reference/authentication/bulk-operations-6"
+            ]
+          },
+          {
+            "group": "Rate Limits",
+            "pages": [
+              "api-reference/rate-limits/automation-1",
+              "api-reference/rate-limits/templates-2",
+              "api-reference/rate-limits/examples-3",
+              "api-reference/rate-limits/reference-4"
+            ]
+          },
+          {
+            "group": "SDKs",
+            "pages": [
+              "api-reference/sdks/common-pitfalls-1",
+              "api-reference/sdks/advanced-setup-2",
+              "api-reference/sdks/team-workflows-3",
+              "api-reference/sdks/performance-tuning-4",
+              "api-reference/sdks/monitoring-5",
+              "api-reference/sdks/troubleshooting-6",
+              "api-reference/sdks/scaling-up-7",
+              "api-reference/sdks/automation-8"
+            ]
+          }
+        ],
+        "expanded": false
+      },
+      {
+        "group": "Automation",
+        "icon": "workflow",
+        "pages": [
+          "automation/overview",
+          {
+            "group": "Triggers",
+            "pages": [
+              "automation/triggers/monitoring-1",
+              "automation/triggers/troubleshooting-2",
+              "automation/triggers/scaling-up-3",
+              "automation/triggers/automation-4",
+              "automation/triggers/templates-5",
+              "automation/triggers/examples-6",
+              "automation/triggers/reference-7",
+              "automation/triggers/limits-and-quotas-8"
+            ]
+          },
+          {
+            "group": "Actions",
+            "pages": [
+              "automation/actions/performance-tuning-1",
+              "automation/actions/monitoring-2",
+              "automation/actions/troubleshooting-3",
+              "automation/actions/scaling-up-4",
+              "automation/actions/automation-5",
+              "automation/actions/templates-6",
+              "automation/actions/examples-7",
+              "automation/actions/reference-8"
+            ]
+          },
+          {
+            "group": "Recipes",
+            "pages": [
+              "automation/recipes/performance-tuning-1",
+              "automation/recipes/monitoring-2",
+              "automation/recipes/troubleshooting-3",
+              "automation/recipes/scaling-up-4",
+              "automation/recipes/automation-5",
+              "automation/recipes/templates-6",
+              "automation/recipes/examples-7",
+              "automation/recipes/reference-8",
+              "automation/recipes/limits-and-quotas-9",
+              "automation/recipes/data-retention-10"
+            ]
+          }
+        ],
+        "expanded": false
+      },
+      {
+        "group": "Guides",
+        "icon": "book-open",
+        "pages": [
+          "guides/overview",
+          {
+            "group": "Getting Started",
+            "pages": [
+              "guides/getting-started/limits-and-quotas-1",
+              "guides/getting-started/data-retention-2",
+              "guides/getting-started/notifications-3",
+              "guides/getting-started/custom-fields-4",
+              "guides/getting-started/bulk-operations-5",
+              "guides/getting-started/version-history-6",
+              "guides/getting-started/rollback-strategies-7",
+              "guides/getting-started/disaster-recovery-8"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "guides/advanced/monitoring-1",
+              "guides/advanced/troubleshooting-2",
+              "guides/advanced/scaling-up-3",
+              "guides/advanced/automation-4",
+              "guides/advanced/templates-5",
+              "guides/advanced/examples-6",
+              "guides/advanced/reference-7",
+              "guides/advanced/limits-and-quotas-8",
+              "guides/advanced/data-retention-9",
+              "guides/advanced/notifications-10"
+            ]
+          },
+          {
+            "group": "Migration",
+            "pages": [
+              "guides/migration/troubleshooting-1",
+              "guides/migration/scaling-up-2",
+              "guides/migration/automation-3",
+              "guides/migration/templates-4",
+              "guides/migration/examples-5",
+              "guides/migration/reference-6"
+            ]
+          }
+        ],
+        "expanded": false
+      },
+      {
+        "group": "Billing",
+        "icon": "credit-card",
+        "pages": [
+          "billing/overview",
+          {
+            "group": "Plans",
+            "pages": [
+              "billing/plans/advanced-setup-1",
+              "billing/plans/team-workflows-2",
+              "billing/plans/performance-tuning-3",
+              "billing/plans/monitoring-4",
+              "billing/plans/troubleshooting-5",
+              "billing/plans/scaling-up-6"
+            ]
+          },
+          {
+            "group": "Invoices",
+            "pages": [
+              "billing/invoices/monitoring-1",
+              "billing/invoices/troubleshooting-2",
+              "billing/invoices/scaling-up-3",
+              "billing/invoices/automation-4",
+              "billing/invoices/templates-5",
+              "billing/invoices/examples-6"
+            ]
+          },
+          {
+            "group": "Usage",
+            "pages": [
+              "billing/usage/advanced-setup-1",
+              "billing/usage/team-workflows-2",
+              "billing/usage/performance-tuning-3",
+              "billing/usage/monitoring-4",
+              "billing/usage/troubleshooting-5",
+              "billing/usage/scaling-up-6"
+            ]
+          }
+        ],
+        "expanded": false
+      },
+      {
+        "group": "Security",
+        "icon": "shield",
+        "pages": [
+          "security/overview",
+          {
+            "group": "Compliance",
+            "pages": [
+              "security/compliance/scaling-up-1",
+              "security/compliance/automation-2",
+              "security/compliance/templates-3",
+              "security/compliance/examples-4",
+              "security/compliance/reference-5",
+              "security/compliance/limits-and-quotas-6"
+            ]
+          },
+          {
+            "group": "Access Control",
+            "pages": [
+              "security/access-control/reference-1",
+              "security/access-control/limits-and-quotas-2",
+              "security/access-control/data-retention-3",
+              "security/access-control/notifications-4",
+              "security/access-control/custom-fields-5",
+              "security/access-control/bulk-operations-6",
+              "security/access-control/version-history-7",
+              "security/access-control/rollback-strategies-8"
+            ]
+          },
+          {
+            "group": "Audit",
+            "pages": [
+              "security/audit/advanced-setup-1",
+              "security/audit/team-workflows-2",
+              "security/audit/performance-tuning-3",
+              "security/audit/monitoring-4",
+              "security/audit/troubleshooting-5",
+              "security/audit/scaling-up-6"
+            ]
+          }
+        ],
+        "expanded": false
       }
     ]
   },
